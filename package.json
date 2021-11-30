@@ -1,0 +1,39 @@
+{
+  "name": "the-web-net-angular-ui",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "v12-lts",
+    "@angular/common": "v12-lts",
+    "@angular/compiler": "v12-lts",
+    "@angular/core": "v12-lts",
+    "@angular/forms": "v12-lts",
+    "@angular/platform-browser": "v12-lts",
+    "@angular/platform-browser-dynamic": "v12-lts",
+    "@angular/router": "v12-lts",
+    "rxjs": "^6.5.3",
+    "tslib": "^2.3.1",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "v12-lts",
+    "@angular/cli": "v12-lts",
+    "@angular/compiler-cli": "v12-lts",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~3.10.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "4.3.5"
+  }
+}
